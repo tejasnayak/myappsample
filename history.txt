@@ -1,0 +1,500 @@
+   25  ping 10.13.1.31
+   26  ssh tejas_nayak@10.13.1.31
+   27  ssh app1
+   28  cd Desktop/Tejas/
+   29  mkdir -p 1 2 3 4 5
+   30  ls
+   31  rmdir 1 2 3 4 5
+   32  ls
+   33  man mkdir -p
+   34  man mkdir
+   35  pwd
+   36  cd Desktop/Tejas/
+   37  mkdir -v t
+   38  ls
+   39  rmdir t
+   40  ls 
+   41  man nc
+   42  pwd
+   43  ls
+   44  cat b.txt 
+   45  more -2 b.txt 
+   46  more -45 commands 
+   47  ssh tejas_nayak@app1
+   48  ssh tejas_nayak@app1
+   49  ssh tejas_nayak@app1
+   50  ssh tejas_nayak@app1
+   51  ssh tejas_nayak@app1
+   52  ssh tejas_nayak@app1
+   53  ssh tejas_nayak@app1
+   54  man passwd
+   55  ssh tejas_nayak@app1
+   56  cd Desktop
+   57  ls
+   58  cp Screen\ Shot\ 2018-03-13\ at\ 
+   59  ssh tejas_nayak@app1
+   60  ssh tejas_nayak@app1
+   61  ssh tejas_nayak@app1
+   62  ssh tejas_nayak@app1
+   63  ssh tejas_nayak@app1
+   64  ssh tejas_nayak@app1
+   65  ssh tejas_nayak@app1
+   66  man passwd
+   67  ssh tejas_nayak@app1/
+   68  ls
+   69  ssh tejas_nayak@app1
+   70  ssh tejas_nayak@app1
+   71  ssh tejas_nayak@app1
+   72  ssh tejas_nayak@app1
+   73  ssh tejas_nayak@app1
+   74  ssh tejas_nayak@app1
+   75  ssh tejas_nayak@app1
+   76  ssh tejas_nayak@app1
+   77  ssh tejas_nayak@app1
+   78  ssh tejas_nayak@app1
+   79  ssh tejas_nayak@app1
+   80  1f7011d8-25c3-4bbd-b4fd-ae8411731e83
+   81  ssh tejas_nayak@app1
+   82  ssh tejas_nayak@app1
+   83  ssh tejas_nayak@app1
+   84  ssh tejas_nayak@app1
+   85  ssh tejas_nayak@app1
+   86  ssh tejas_nayak@app1
+   87  ssh tejas_nayak@app1
+   88  echo -n test-client-sleepio:testsecret | base64
+   89  curl -k "https://10.13.1.31:48809/apis/oauth/token" -H "Authorization: Basic dGVzdC1jbGllbnQtc2xlZXBpbzp0ZXN0c2VjcmV0" -d "grant_type=client_credentials"
+   90  ssh tejas_nayak@app1curl -k -X POST -H "Authorization: bearer 6d069357-49b5-41b3-b0a2-4793cf134576" -H "Content-Type: application/json" -d '{ "firstName":"kelly","lastName":"white","hlcId":"100412034","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": "test-client-4","mutualClientId": "the_home_depot"}' "https://ehealthreminders.net/apis/sleepio/v1/update"
+   91  curl -k -X POST -H "Authorization: bearer 6d069357-49b5-41b3-b0a2-4793cf134576" -H "Content-Type: application/json" -d '{ "firstName":"kelly","lastName":"white","hlcId":"100412034","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": "test-client-4","mutualClientId": "the_home_depot"}' "https://ehealthreminders.net/apis/sleepio/v1/update"
+   92  curl -k -X POST -H "Authorization: bearer 17f151d7-d17e-42cb-8557-d9d3c10d4cc2" -H "Content-Type: application/json" -d '{ "firstName":"Marchall","lastName":"Jarley","hlcId":"1030LOI16","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": " 8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+   93  exit
+   94  echo -n test-client-sleepio:testsecret | base64
+   95  curl -k "https://10.13.1.31:48809/apis/oauth/token" -H "Authorization: Basic dGVzdC1jbGllbnQtc2xlZXBpbzp0ZXN0c2VjcmV0" -d "grant_type=client_credentials"
+   96  curl -k -X POST -H "Authorization: bearer 17f151d7-d17e-42cb-8557-d9d3c10d4cc2" -H "Content-Type: application/json" -d '{ "firstName":"Marchall","lastName":"Jarley","hlcId":"1030LOI16","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": " 8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+   97  curl -k -X POST -H "Authorization: bearer 60c10698-4807-405e-a3d5-38e72fb406c3" -H "Content-Type: application/json" -d '{ "firstName":"Marchall","lastName":"Jarley","hlcId":"1030LOI16","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": " 8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+   98  curl -k -X POST -H "Authorization: bearer 60c10698-4807-405e-a3d5-38e72fb406c3" -H "Content-Type: application/json" -d '{ "firstName":"Marchall","lastName":"Jarley","hlcId":"1030LOI16","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": " 8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+   99  echo -n test-client-sleepio:testsecret | base64
+  100  curl -k "https://10.13.1.31:48809/apis/oauth/token" -H "Authorization: Basic dGVzdC1jbGllbnQtc2xlZXBpbzp0ZXN0c2VjcmV0" -d "grant_type=client_credentials"
+  101  curl -k -X POST -H "Authorization: bearer ec53bd49-4e8a-4cc8-8329-76d6e6907de6" -H "Content-Type: application/json" -d '{ "firstName":"Marchall","lastName":"Jarley","hlcId":"1030LOI16","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": " 8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+  102  curl -k -X POST -H "Authorization: bearer ec53bd49-4e8a-4cc8-8329-76d6e6907de6" -H "Content-Type: application/json" -d '{ "firstName":"Marchall","lastName":"Jarley","hlcId":" 1030UYH16","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": " 8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+  103  curl -k -X POST -H "Authorization: bearer ec53bd49-4e8a-4cc8-8329-76d6e6907de6" -H "Content-Type: application/json" -d '{ "firstName":"Marchall","lastName":"Jarley","hlcId":"1030LOI16","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": " 8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+  104  curl -k -X POST -H "Authorization: bearer ec53bd49-4e8a-4cc8-8329-76d6e6907de6" -H "Content-Type: application/json" -d '{ "firstName":"Marchall","lastName":"Jarley","hlcId":"1030LOI16","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": "8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+  105  echo -n test-client-sleepio:testsecret | base64
+  106  curl -k "https://10.13.1.31:48809/apis/oauth/token" -H "Authorization: Basic dGVzdC1jbGllbnQtc2xlZXBpbzp0ZXN0c2VjcmV0" -d "grant_type=client_credentials"
+  107  curl -k -X POST -H "Authorization: bearer edcdc4a2-3b7c-46ba-a773-eaced9f42685" -H "Content-Type: application/json" -d '{ "firstName":"Marchall","lastName":"Jarley","hlcId":"1030LOI16","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": "8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+  108  curl -k -X POST -H "Authorization: bearer edcdc4a2-3b7c-46ba-a773-eaced9f42685" -H "Content-Type: application/json" -d '{ "firstName":"marchall","lastName":"jarley","hlcId":"1030LOI16","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": "8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+  109  echo -n test-client-sleepio:testsecret | base64
+  110  curl -k "https://10.13.1.31:48809/apis/oauth/token" -H "Authorization: Basic dGVzdC1jbGllbnQtc2xlZXBpbzp0ZXN0c2VjcmV0" -d "grant_type=client_credentials"
+  111  curl -k -X POST -H "Authorization: bearer edcdc4a2-3b7c-46ba-a773-eaced9f42685" -H "Content-Type: application/json" -d '{ "firstName":"Pamela","lastName":"Banks","hlcId":"10H4TE050","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": "4aef05309c0923607aa5c768ddef71683409acf7598d53eee5c21ea009b22a7a7a0496153486105d591b92e7a05de4e90b30011af2dcf01296995351378b2a17","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+  112  echo -n test-client-sleepio:testsecret | base64
+  113  curl -k "https://10.13.1.31:48809/apis/oauth/token" -H "Authorization: Basic dGVzdC1jbGllbnQtc2xlZXBpbzp0ZXN0c2VjcmV0" -d "grant_type=client_credentials"
+  114  curl -k -X POST -H "Authorization: bearer 13c23d40-2c82-4d5f-b91d-e046bbbf04ed" -H "Content-Type: application/json" -d '{ "firstName":"Pamela","lastName":"Banks","hlcId":"10H4TE050","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": "4aef05309c0923607aa5c768ddef71683409acf7598d53eee5c21ea009b22a7a7a0496153486105d591b92e7a05de4e90b30011af2dcf01296995351378b2a17","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+  115  curl -k -X POST -H "Authorization: bearer 13c23d40-2c82-4d5f-b91d-e046bbbf04ed" -H "Content-Type: application/json" -d '{ "firstName":"Pamela","lastName":"Banks","hlcId":"10H4TE050","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": "4aef05309c0923607aa5c768ddef71683409acf7598d53eee5c21ea009b22a7a7a0496153486105d591b92e7a05de4e90b30011af2dcf01296995351378b2a17","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+  116  curl -k -H "Content-Type: application/json" -H "Authorization: Bearer 13edc5ee-0116-4ee7-b40c-d5fa092a4a83" -XPOST https://ehealthreminders.net/apis/alerts/v1 -d '{ "user":{ "firstName":"Chris", "lastName":"Mickelsen", "employeeId":"0000123621", "relationshipCode":"01", "clientId":"8fb449b283880b6becc12b6a44a36c57af0291938c2078161c63a9ed12a1b5255582ab04fbf696e1fc7c61f29703fbc0c0073f21853e20897202c93262b7d3bc", "dob":"1968-12-02" }, "alert
+  117  curl -k -H "Content-Type: application/json" -H "Authorization: Bearer 13edc5ee-0116-4ee7-b40c-d5fa092a4a83" -XPOST https://ehealthreminders.net/apis/alerts/v1 -d '{ "user":{ "firstName":"Chris", "lastName":"Mickelsen", "employeeId":"0000123621", "relationshipCode":"01", "clientId":"8fb449b283880b6becc12b6a44a36c57af0291938c2078161c63a9ed12a1b5255582ab04fbf696e1fc7c61f29703fbc0c0073f21853e20897202c93262b7d3bc", "dob":"1968-12-02" }, "alertOptions":{ "deviceType":"MOBILE","type":"BANNER" } }'
+  118  curl -k -X POST -H "Authorization: bearer 13c23d40-2c82-4d5f-b91d-e046bbbf04ed" -H "Content-Type: application/json" -d '{ "firstName":"Pamela","lastName":"Banks","hlcId":"10H4TE050","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": "4aef05309c0923607aa5c768ddef71683409acf7598d53eee5c21ea009b22a7a7a0496153486105d591b92e7a05de4e90b30011af2dcf01296995351378b2a17","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+  119  curl -k -H "Content-Type: application/json" -H "Authorization: Bearer 13edc5ee-0116-4ee7-b40c-d5fa092a4a83" -XPOST https://ehealthreminders.net/apis/alerts/v1 -d '{ "user":{ "firstName":"Chris", "lastName":"Mickelsen", "employeeId":"0000123621", "relationshipCode":"01", "clientId":"8fb449b283880b6becc12b6a44a36c57af0291938c2078161c63a9ed12a1b5255582ab04fbf696e1fc7c61f29703fbc0c0073f21853e20897202c93262b7d3bc", "dob":"1968-12-02" }, "alertOptions":{ "deviceType":"MOBILE","type":"BANNER" } }'
+  120  curl -k -X POST -H "Authorization: bearer 13c23d40-2c82-4d5f-b91d-e046bbbf04ed" -H "Content-Type: application/json" -d '{ "firstName":"Pamela","lastName":"Banks","hlcId":"10H4TE050","updatedDate":"2017-04-19T05:32:49Z","points": {"stress":"","missedWorkHours":"4","productivityImpact":"7","atRiskOfSleepApnea":"0","lshSignUp":"1","cbtStart": "0"},"associateId": "","relationshipCode": "01","clientId": "4aef05309c0923607aa5c768ddef71683409acf7598d53eee5c21ea009b22a7a7a0496153486105d591b92e7a05de4e90b30011af2dcf01296995351378b2a17","mutualClientId": "the_home_depot"}' "https://10.13.1.31:48809/apis/sleepio/v1/update"
+  121  curl -k -H "Content-Type: application/json" -H "Authorization: Bearer 13edc5ee-0116-4ee7-b40c-d5fa092a4a83" -XPOST https://ehealthreminders.net/apis/alerts/v1 -d '{ "user":{ "firstName":"Chris", "lastName":"Mickelsen", "employeeId":"0000123621", "relationshipCode":"01", "clientId":"8fb449b283880b6becc12b6a44a36c57af0291938c2078161c63a9ed12a1b5255582ab04fbf696e1fc7c61f29703fbc0c0073f21853e20897202c93262b7d3bc", "dob":"1968-12-02" }, "alertOptions":{ "deviceType":"MOBILE","type":"BANNER" } }'
+  122  curl -k -H "Content-Type: application/json" -H "Authorization: Bearer 13edc5ee-0116-4ee7-b40c-d5fa092a4a83" -XPOST https://ehealthreminders.net/apis/alerts/v1 -d '{ "user":{ "firstName":"Chris", "lastName":"Mickelsen", "employeeId":"0000123621", "relationshipCode":"01", "clientId":"8fb449b283880b6becc12b6a44a36c57af0291938c2078161c63a9ed12a1b5255582ab04fbf696e1fc7c61f29703fbc0c0073f21853e20897202c93262b7d3bc", "dob":"1968-12-02" }, "alertOptions":{ "deviceType":"MOBILE","type":"BANNER" } }'
+  123  curl -k -H "Content-Type: application/json" -H "Authorization: Bearer 13edc5ee-0116-4ee7-b40c-d5fa092a4a83" -XPOST https://ehealthreminders.net/apis/alerts/v1 -d '{ "user":{ "firstName":"Chris", "lastName":"Mickelsen", "employeeId":"0000123621", "relationshipCode":"01", "clientId":"8fb449b283880b6becc12b6a44a36c57af0291938c2078161c63a9ed12a1b5255582ab04fbf696e1fc7c61f29703fbc0c0073f21853e20897202c93262b7d3bc", "dob":"1968-12-02" }, "alertOptions":{ "deviceType":"MOBILE","type":"BANNER" } }'
+  124  echo -n test-client-sleepio:testsecret | base64
+  125  curl -k "https://10.13.1.31:48809/apis/oauth/token" -H "Authorization: Basic dGVzdC1jbGllbnQtc2xlZXBpbzp0ZXN0c2VjcmV0" -d "grant_type=client_credentials"
+  126  curl -k -H "Content-Type: application/json" -H "Authorization: Bearer 13edc5ee-0116-4ee7-b40c-d5fa092a4a83" -XPOST https://ehealthreminders.net/apis/alerts/v1 -d '{ "user":{ "firstName":"Chris", "lastName":"Mickelsen", "employeeId":"0000123621", "relationshipCode":"01", "clientId":"8fb449b283880b6becc12b6a44a36c57af0291938c2078161c63a9ed12a1b5255582ab04fbf696e1fc7c61f29703fbc0c0073f21853e20897202c93262b7d3bc", "dob":"1968-12-02" }, "alertOptions":{ "deviceType":"MOBILE","type":"BANNER" } }'
+  127  curl -k -H "Content-Type: application/json" -H "Authorization: Bearer 13edc5ee-0116-4ee7-b40c-d5fa092a4a83" -XPOST https://ehealthreminders.net/apis/alerts/v1 -d '{ "user":{ "firstName":"Chris", "lastName":"Mickelsen", "employeeId":"0000123621", "relationshipCode":"01", "clientId":"8fb449b283880b6becc12b6a44a36c57af0291938c2078161c63a9ed12a1b5255582ab04fbf696e1fc7c61f29703fbc0c0073f21853e20897202c93262b7d3bc", "dob":"1968-12-02" }, "alertOptions":{ "deviceType":"MOBILE","type":"BANNER" } }'
+  128  curl -k -H "Content-Type: application/json" -H "Authorization: Bearer 13edc5ee-0116-4ee7-b40c-d5fa092a4a83" -XPOST https://ehealthreminders.net/apis/alerts/v1 -d '{ "user":{ "firstName":"Marchall", "lastName":"Jarley", "employeeId":"1030UYH16", "relationshipCode":"01", "clientId":"8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3", "dob":"1994-03-21" }, "alertOptions":{ "deviceType":"MOBILE","type":"BANNER" } }'
+  129  echo -n test-client-sleepio:testsecret | base64
+  130  curl -k "https://10.13.1.31:48809/apis/oauth/token" -H "Authorization: Basic dGVzdC1jbGllbnQtc2xlZXBpbzp0ZXN0c2VjcmV0" -d "grant_type=client_credentials"
+  131  curl -k -H "Content-Type: application/json" -H "Authorization: Bearer 64f76e65-b47f-40ff-830a-2b9b65e6a0ca" -XPOST https://10.13.1.31:48809/apis/alerts/v1 -d '{ "user":{ "firstName":"Marchall", "lastName":"Jarley", "employeeId":"1030UYH16", "relationshipCode":"01", "clientId":"8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3", "dob":"1994-03-21" }, "alertOptions":{ "deviceType":"MOBILE","type":"BANNER" } }'
+  132  echo -n test-client-sleepio:testsecret | base64
+  133  curl -k "https://10.13.1.31:48809/apis/oauth/token" -H "Authorization: Basic dGVzdC1jbGllbnQtc2xlZXBpbzp0ZXN0c2VjcmV0" -d "grant_type=client_credentials"
+  134  curl -k "https://10.13.1.31:48809/apis/oauth/token" -H "Authorization: Basic dGVzdC1jbGllbnQtc2xlZXBpbzp0ZXN0c2VjcmV0" -d "grant_type=client_credentials"
+  135  curl -k -H "Content-Type: application/json" -H "Authorization: Bearer b841e856-5633-4d94-8a46-5aca0461161d" -XPOST https://10.13.1.31:48809/apis/alerts/v1 -d '{ "user":{ "firstName":"Marchall", "lastName":"Jarley", "employeeId":"1030UYH16", "relationshipCode":"01", "clientId":"8ffb0411925390b2678616f3075a413f83b33a6ed9476c0d8fe216bfa21c5296d53d537927939d4bce0190ce9688ece8bbdb3de3149e915b168f8c524bd767e3", "dob":"1994-03-21" }, "alertOptions":{ "deviceType":"MOBILE","type":"BANNER" } }'
+  136  ssh tejas_nayak@app1
+  137  ssh tejas_nayak@app1
+  138  ssh tejaa_nayak@app1
+  139  ssh tejas_nayak@app1
+  140  ssh tejas_nayak@app1
+  141  cd Desktop/Tejas/
+  142  touch mom.txt
+  143  ssh tejas_nayak@app1
+  144  ssh tejas_nayak@app1
+  145  ssh nayak_tejas@app1
+  146  ssh nayak_tejas@app1
+  147  cd Desktop/
+  148  touch t.d
+  149  rm t.d 
+  150  ps aux
+  151  ps aux | grep chrome
+  152  kill -cont 621
+  153  ps | grep chrome
+  154  ps | grep chrome
+  155  kill -cont 628
+  156  sudo /etc/sudoers
+  157  sudo less /etc/sudoers
+  158  cc Desktop
+  159  cd Desktop/
+  160  cd Tejas/
+  161  ls
+  162  cd INFRA/
+  163  nano Day2.txt
+  164  nano Day2.txt
+  165  nano Day2.txt
+  166  nano Day2.txt
+  167  ssh tejas_nayak@app1
+  168  ssh tejas_nayak@app1
+  169  ssh tejas_nayak@app1
+  170  ssh tejas_nayak@app2
+  171  ssh tejas_nayak@app1
+  172  tty
+  173  stat
+  174  ps
+  175  man kill
+  176  htop
+  177  top
+  178  ps axl
+  179  cat b.txt
+  180  cd Desktop/Tejas/
+  181  cat b.txt 
+  182  ps axl| b.txt
+  183  ps axl| grepb.txt
+  184  ps axl| grep b.txt
+  185  nice -10 b.txt 
+  186  pwd
+  187  nice -10 b.txt& 
+  188  fg
+  189  fg 809
+  190  pwd
+  191  vi hello.sh
+  192  sh hello.sh 
+  193  ps axl
+  194  sh hello.sh &
+  195  ps axl|grep hello.sh 
+  196  nice -10 ./hello.sh 
+  197  sudo nice -10 ./hello.sh 
+  198  sudo nice -10 ./hello.sh & 
+  199  ps axl|grep hello.sh 
+  200  ls -ltr
+  201  cat b.txt 
+  202  ln -s b.txt Desktop
+  203  ln -s b.txt Desktop/b_back.txt
+  204  ln -s b.txt /Desktop/b_back.txt
+  205  ln -s b.txt b_back.txt
+  206  ls
+  207  diff b.txt b_back.txt 
+  208  echo$?
+  209  echo $?
+  210  diff b.txt b_back.txt 
+  211  echo $?
+  212  ls -ltr | grep b*.txt
+  213  ls -ltr | grep *.txt
+  214  ls -ltr | grep b.txt
+  215  ln b.txt b2.txt
+  216  ls -ltr | grep b.txt
+  217  cat b2.txt
+  218  lpq
+  219  jobs
+  220  exho $?
+  221  jobs
+  222  echo $?
+  223  bc
+  224  man ps -l
+  225  man ps
+  226  crontab l
+  227  crontab -l
+  228  cat
+  229  cat 
+  230  cat &
+  231  fg 1220
+  232  cat &
+  233  jobs
+  234  cd Desktop/Tejas
+  235  cat b.txt &
+  236  jobs
+  237  cat b.txt &
+  238  bg
+  239  ssh tejas_nayak@app1
+  240  ssh tejas_nayak@app1
+  241  ssh tejas_nayak@app2
+  242  ssh tejas_nayak@app1
+  243  ssh tejas_nayak@app1
+  244  vagrant halt
+  245  ssh tejas_nayak@app1
+  246  ssh tejas_nayak@app2
+  247  ssh tejas_nayak@app2
+  248  ssh tejas_nayak@app2
+  249  ssh tejas_nayak@app2
+  250  ssh tejas_nayak@app2
+  251  ssh tejas_nayak@app2
+  252  ssh tejas_nayak@data2
+  253  ssh tejas_nayak@data2
+  254  ‹
+  255  ssh tejas_nayak@data2
+  256  ssh tejas_nayak@data2
+  257  ssh tejas_nayak@app2
+  258  exit
+  259  /Users/tejassnayak/Downloads/consul ; exit;
+  260  /Users/tejassnayak/Downloads/consul ; exit;
+  261  sudo cp -v /opt/evive/pkgs/consul/consul-mac  . 
+  262  ssh tejas_nayak@app1
+  263  ps aux | grep consul
+  264  ps aux | grep consul
+  265  ps aux | grep consul
+  266  seq 1 to 100
+  267  seq 1 100
+  268  seq 1 100 > Desktop/a.txt
+  269  cat Desktop/a.txt 
+  270  seq 1 100 > Desktop/tejas-count.txt
+  271  value=`cat Desktop/tejas-count.txt `
+  272  value
+  273  cat value
+  274  echo $value
+  275  for i in $value:
+  276  for i in $value;do $i=((i+5))
+  277  for i in $value;do $i=((i+5)) done
+  278  cd Desktop/
+  279  vi t.sh
+  280  sh t.sh
+  281  sh t.sh tejas-count.txt 
+  282  vi t.sh
+  283  sh t.sh tejas-count.txt 
+  284  vi t.sh
+  285  sh t.sh tejas-count.txt 
+  286  vi t.sh
+  287  sh t.sh
+  288  vi t.sh
+  289  sh t.sh 
+  290  vi t.sh
+  291  sh t.sh 
+  292  cd ~
+  293  pwd
+  294  cd Desktop/
+  295  pwd
+  296  vi t.sh
+  297  sh t.sh 
+  298  vi t.sh
+  299  sh t.sh 
+  300  vi t.sh
+  301  sh t.sh 
+  302  vi t.sh
+  303  sh t.sh 
+  304  vi t.sh
+  305  sh t.sh 
+  306  vi t.sh
+  307  sh t.sh 
+  308  vi t.sh
+  309  sh t.sh 
+  310  vi t.sh
+  311  sh t.sh 
+  312  history | less
+  313  less t.sh 
+  314  sh t.sh 
+  315  vi t.sh
+  316  sh t.sh 
+  317  vi t.sh
+  318  sh t.sh 
+  319  vi t.sh
+  320  sh t.sh 
+  321  vi t.sh
+  322  sh t.sh 
+  323  vi t.sh
+  324  sh t.sh 
+  325  vi t.sh
+  326  sh t.sh 
+  327  vi t.sh
+  328  sh t.sh 
+  329  sh t.sh 
+  330  vi t.sh
+  331  wget  http://download.redis.io/releases/redis-4.0.9.tar.gz
+  332  wget http://download.redis.io/releases/redis-4.0.9.tar.gz
+  333  brew install wget
+  334  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+  335  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+  336  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
+  337  ./consul members
+  338  dig @127.0.0.1 -p 8600 Tejass-Air.node.consul
+  339  consul.service.consul
+  340  ./consul.service.consul
+  341  dig @127.0.0.1 -p 8600 
+  342  ls -ltr /etc/consul.d
+  343  sudo mkdir /etc/consul.d
+  344  NzTbvZRP3^@Ha71GIdWe
+  345  sudo mkdir /etc/consul.d
+  346  ls
+  347  ls -ltr /etc/consul.d/
+  348  ls -lstr /etc/consul.d/
+  349  echo '{"service": {"name": "web", "tags": ["rails"], "port": 80}}'     | sudo tee /etc/consul.d/web.json
+  350  consul
+  351  ssh tejas_nayak@data2
+  352  history
+  353  man kill
+  354  man read
+  355  man read
+  356  man file
+  357  man wc
+  358  ls
+  359  wc a.txt
+  360  wc -lwc a.txt
+  361  man wc
+  362  man scp
+  363  man tee
+  364  man echo
+  365  ls
+  366  cat t.sh 
+  367  vi t.sh 
+  368  wc t.sh 
+  369  echo -n t.sh 
+  370  echo -n "asrd">t.sh 
+  371  wc t.sh 
+  372  echo "asrd">t.sh 
+  373  wc t.sh 
+  374  echo -n "Tejas">t.sh 
+  375  wc t.sh 
+  376  man wget
+  377  ssh tejas_nayak@app1
+  378  ssh tejas_nayak@app1
+  379  ssh tejas_nayak@app1
+  380  ssh tejas_nayak@app3
+  381  cd Desktop/
+  382  cd Desktop/
+  383   
+  384  pwd
+  385  vi tejas.csv
+  386  ssh tejas_nayak@app1
+  387  python
+  388  python
+  389  pylint
+  390  which pylint
+  391  sudo pip install pylint
+  392  pylint
+  393  gedit 
+  394  ssh tejas_nayak@app2
+  395  ssh tejas_nayak@app3
+  396  /Users/tejassnayak/Downloads/consul ; exit;
+  397  ssh tejas_nayak@data1
+  398  brew install consul
+  399  locate -br redis
+  400  locate -br pro
+  401  locate -br PRO Final
+  402  locate a.txt
+  403  man locate
+  404  locate -br a.txt
+  405  man locate
+  406  locate a
+  407  ./consul
+  408  export VAULT_ADDR='http://127.0.0.1:8200'
+  409  vault status
+  410  vault write secret/hello value=world
+  411  vault write secret/hello value=world excited=yes
+  412  vault read secret/hello
+  413  vault read -format=json secret/hello | jq -r .data.excited
+  414  vault read -field=excited secret/hello
+  415  vault -autocomplete-install
+  416  consul members
+  417  export VAULT_ADDR='http://127.0.0.1:8200'
+  418  vault read -field=excited secret/hello
+  419  vault status
+  420  vault secrets enable -path=kv kv
+  421  vault secrets list
+  422  vault write kv/my-secret value="s3c(eT"
+  423  vault secrets list
+  424  vault write kv/airplane type=boeing class=787
+  425  vault list kv
+  426  vault read kv/airplane
+  427  vim
+  428  ssh tejas_nayak@app1
+  429  ssh tejas_nayak@app1
+  430  ssh tejas_mayak@app11
+  431  ssh tejas_mayak@app1
+  432  ssh tejas_mayak@app1
+  433  sudo pip3 install --trusted-host 10.13.1.34 --extra-index-url http://10.13.134:8012/vault_api
+  434  pip
+  435  sudo pip3 install --trusted-host 10.13.1.34 --extra-index-url http://10.13.134:8012/ vault_api
+  436  sudo pip3 install --trusted-host 10.13.1.34 --extra-index-url http://10.13.1.34:8012/ vault_api
+  437  sudo pip3 install --trusted-host 10.13.1.34 --extra-index-url http://10.13.134:8012/ evive_connectors
+  438  sudo pip3 install --trusted-host 10.13.1.34 --extra-index-url http://10.13.1.34:8012/ evive_connectors
+  439  sudo vim /Library/Python/2.7/site-packages/vault_api/vault_api.py
+  440  sudo less /Library/Python/3.6/site-packages/vault_api/vault_api.py
+  441  sudo less /usr/local/lib/python3.6/dist-packages/vault_api/vault_api.py
+  442  sudo vi /usr/local/lib/python3.6/site-packages/vault_api/vault_api.py 
+  443  import vault_api
+  444  python3.6
+  445  sudo vi /usr/local/lib/python3.6/site-packages/vault_api/vault_api.py 
+  446  python3.6
+  447  python2.7
+  448  cd  /usr/local/lib/python3.6/site-packages/vault_api
+  449  vi vault-ca.pem
+  450  vi vault_api.py 
+  451  vi vault_api-ca.pem
+  452  sudo vi vault_api-ca.pem
+  453  ls
+  454  python3.6
+  455  sudo vi vault_api.py 
+  456  python3.6
+  457  less /usr/local/lib/python3.6/site-packages/vault_api/vault_api.py 
+  458  import vault_api
+  459  python3.6
+  460  export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/ 
+  461  source .bash_profile
+  462  cd 
+  463  source .bash_profile
+  464  echo $JAVA_HOME
+  465  brew install maven
+  466  ls
+  467  cd bin
+  468  ls
+  469  cd cassandra
+  470  ls -ltr
+  471  cqlsh
+  472  cqlsh.py
+  473  /Users/tejassnayak/Downloads/apache-cassandra-3.0.13/bin/cqlsh ; exit;
+  474  cd Desktop/my\ app/
+  475  touch index.html
+  476  touch app.js
+  477  git init
+  478  git config --global user.name 'tejasnayak'
+  479  git config --global user.email 'veernayak14@gmail.com'
+  480  git add index.html 
+  481  git status
+  482  git rm --cached index.html 
+  483  git add .
+  484  git status
+  485  git status
+  486  git status
+  487  git add .
+  488  git status
+  489  git commit
+  490  git status
+  491  git status
+  492  git add .
+  493  git status
+  494  git commit -m 'Changed app.js'
+  495  touch .gitignore
+  496  touch log.txt
+  497  git status
+  498  git add .
+  499  git status
+  500  mkdir dir1
+  501  git add .
+  502  git status
+  503  git commit -m 'another change'
+  504  git branch login
+  505  git status
+  506  git checkout login
+  507  git status
+  508  touch login.html
+  509  git status
+  510  git add .
+  511  git commit -m 'login page added'
+  512  git checkout master
+  513  git merge login
+  514  git status
+  515  git remote add origin https://github.com/tejasnayak/myappsample.git
+  516  git push -u origin master
+  517  touch README.md
+  518  git add .
+  519  git commit -m 'added README file'
+  520  git push
+  521  git pull
+  522  history 
+  523  history  >> Desktop/Tejas/ history.txt
+  524  history  >> history.txt
